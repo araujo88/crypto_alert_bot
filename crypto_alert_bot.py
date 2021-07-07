@@ -10,7 +10,7 @@ import winsound
 
 client = Client(config.API_KEY, config.API_SECRET)
 
-K = 4
+K = 4 # Volume threshold. If the current candle's volume is over K times the last candle's volume, an alarm is triggered.
 
 volume_btc = []
 volume_eth = []
